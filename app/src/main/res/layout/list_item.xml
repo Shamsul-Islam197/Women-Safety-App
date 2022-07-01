@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:id="@+id/viewName"
+                android:layout_width="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Name"
+                android:textColor="#ffffff"
+                android:padding="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_weight="4"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/viewPhone"
+                android:layout_width="0dp"
+                android:layout_marginTop="0dp"
+                android:text="Phone"
+                android:textColor="#ffffff"
+                android:padding="10sp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_weight="4"
+                android:textAlignment="center"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</RelativeLayout>
